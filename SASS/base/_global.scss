@@ -1,43 +1,50 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Noto+Nastaliq+Urdu&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Signika+Negative:wght@300;400;500;600;700&display=swap");
 *,
 ::after,
 ::before {
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
 body {
-    overflow-x: hidden;
-    font-family: Poppins, sans-serif;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+/* Hero sec */
+.hero-Section,
+.News-Section,
+.video-container,
+.form-Secion,
+.cpf_Section,
+.accordion_Sec {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-color: red !important;
 }
 
 @mixin sm-laptop {
-    @media (max-width: 1023px) {
+    @media (max-width: 992px) {
         @content;
     }
 }
 
 @mixin tablet {
-    @media (max-width: 800px) {
+    @media (max-width: 768px) {
         @content;
     }
 }
 
 @mixin sm-tablet {
-    @media (max-width: 750px) {
+    @media (max-width: 576px) {
         @content;
     }
 }
 
 @mixin mobile {
-    @media (max-width: 500px) {
-        @content;
-    }
-}
-
-@mixin sm-mobile {
-    @media (max-width: 368px) {
+    @media (max-width: 414px) {
         @content;
     }
 }

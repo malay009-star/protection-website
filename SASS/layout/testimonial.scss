@@ -1,0 +1,62 @@
+.video-container {
+  background-image: url('./../img/video-bg.png');
+
+  .video-Secion{
+    height: 400px;
+  }
+  @include mobile{
+    .video-Secion{
+      height: 220px;
+    }
+  }
+  .video_icon {
+    left: 45%;
+    top: 38%;
+    width: 80px;
+  }
+  @include tablet {
+    .video_icon {
+      left: 35%;
+      top: 23%;
+    }
+  }
+    @include sm-laptop {
+    .video_icon {
+      left: 45%;
+      top: 40%;
+    }
+  }
+    @include mobile {
+    .video_icon {
+     width: 20%;
+      left: 40%;
+      top: 33%;
+    }
+  }
+}
+
+
+
+// people contianer
+.People-container {
+  .people-cart1 {
+    border-radius: 22px;
+    background: rgba(255, 255, 255, 0.01);
+    box-shadow: 0px 1px 40px 0px rgba(255, 97, 246, 0.20) inset, 0px 4px 18px 0px rgba(255, 97, 246, 0.30) inset, 0px 98px 100px -48px rgba(255, 97, 246, 0.30) inset, 0px -82px 68px -64px rgba(255, 97, 246, 0.22) inset, 0px 7px 11px -4px #FFF inset, 0px 39px 56px -36px rgba(255, 255, 255, 0.50) inset;
+    backdrop-filter: blur(50px);
+  }
+
+  .people-cart2 {
+    border-radius: 22px;
+    background: rgba(255, 255, 255, 0.01);
+    box-shadow: 0px 1px 40px 0px rgba(46, 230, 168, 0.20) inset, 0px 4px 18px 0px rgba(46, 230, 168, 0.30) inset, 0px 98px 100px -48px rgba(46, 230, 168, 0.30) inset, 0px -82px 68px -64px rgba(46, 230, 168, 0.20) inset, 0px 7px 11px -4px #FFF inset, 0px 39px 56px -36px rgba(255, 255, 255, 0.50) inset;
+    backdrop-filter: blur(50px);
+  }
+
+  .people-cart3 {
+    border-radius: 22px;
+    background: rgba(255, 255, 255, 0.01);
+    box-shadow: 0px 1px 40px 0px rgba(45, 104, 255, 0.20) inset, 0px 4px 18px 0px rgba(45, 104, 255, 0.30) inset, 0px 98px 100px -48px rgba(45, 104, 255, 0.30) inset, 0px -82px 68px -64px rgba(45, 104, 255, 0.20) inset, 0px 7px 11px -4px #FFF inset, 0px 39px 56px -36px rgba(255, 255, 255, 0.50) inset;
+    backdrop-filter: blur(50px);
+  }
+}

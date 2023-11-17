@@ -1,0 +1,34 @@
+// colors
+.primary-clr {
+  color: #26FFB6;
+}
+
+.secondary-clr {
+  color: #CB38FF;
+}
+
+.red {
+  color: #F00;
+}
+
+.lightBlue {
+  color: rgba(124, 254, 253, 0.70);
+}
+
+// equal width
+@media screen and (min-width: 992px) {
+  .global_width {
+    // background-color: red;
+    width: 70%;
+    margin: auto;
+  }
+}
+
+// heading width
+@media screen and (min-width: 992px) {
+  .heading_width {
+    // background-color: red;
+    width: 63%;
+    margin: auto;
+  }
+}

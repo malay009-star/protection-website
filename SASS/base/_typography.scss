@@ -1,2 +1,54 @@
-// global element
-// like h1 , h2 ,h3 
+// section heading
+.sec-heading {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 40px;
+  text-transform: capitalize;
+}
+
+@include mobile {
+  .sec-heading {
+    font-size: 24px !important;
+    line-height: 35px;
+  }
+}
+
+.sm_heading {
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 44px;
+  /* 157.143% */
+  text-transform: capitalize;
+}
+
+@include mobile {
+  .sm_heading {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+.para {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  /* 222.222% */
+  text-transform: capitalize;
+}
+
+.global_btn {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 9px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #075BFF;
+  transition: all 0.2s linear;
+}
+
+.global_btn:hover {
+  color: white;
+  transform: scale(1.1);
+}

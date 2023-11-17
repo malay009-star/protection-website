@@ -1,0 +1,54 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_biiiiii_26_179)">
+<rect y="63.6396" width="90" height="90" rx="16" transform="rotate(-45 0 63.6396)" fill="white" fill-opacity="0.01"/>
+</g>
+<path d="M45.76 71.288V56.312L49.472 52.6H59.392L63.104 56.312V71.288L59.392 75H49.472L45.76 71.288ZM57.344 71.288L58.752 69.88V57.72L57.344 56.312H51.52L50.112 57.72V69.88L51.52 71.288H57.344ZM66.123 70.104L77.643 59.64V57.368L76.587 56.312H71.403L70.347 57.368V59.64H65.995V56.056L69.451 52.6H78.539L81.995 56.056V60.92L70.635 71.032V71.352H82.123V75H66.123V70.104Z" fill="white"/>
+<defs>
+<filter id="filter0_biiiiii_26_179" x="-93.3726" y="-93.3726" width="314.024" height="314.024" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="50"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_26_179"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_26_179" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="20"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.180392 0 0 0 0 0.901961 0 0 0 0 0.658824 0 0 0 0.2 0"/>
+<feBlend mode="normal" in2="shape" result="effect2_innerShadow_26_179"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="9"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.180392 0 0 0 0 0.901961 0 0 0 0 0.658824 0 0 0 0.3 0"/>
+<feBlend mode="normal" in2="effect2_innerShadow_26_179" result="effect3_innerShadow_26_179"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="48" operator="dilate" in="SourceAlpha" result="effect4_innerShadow_26_179"/>
+<feOffset dy="98"/>
+<feGaussianBlur stdDeviation="50"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.180392 0 0 0 0 0.901961 0 0 0 0 0.658824 0 0 0 0.3 0"/>
+<feBlend mode="normal" in2="effect3_innerShadow_26_179" result="effect4_innerShadow_26_179"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="64" operator="dilate" in="SourceAlpha" result="effect5_innerShadow_26_179"/>
+<feOffset dy="-82"/>
+<feGaussianBlur stdDeviation="34"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.180392 0 0 0 0 0.901961 0 0 0 0 0.658824 0 0 0 0.2 0"/>
+<feBlend mode="normal" in2="effect4_innerShadow_26_179" result="effect5_innerShadow_26_179"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="4" operator="dilate" in="SourceAlpha" result="effect6_innerShadow_26_179"/>
+<feOffset dy="7"/>
+<feGaussianBlur stdDeviation="5.5"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+<feBlend mode="normal" in2="effect5_innerShadow_26_179" result="effect6_innerShadow_26_179"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="36" operator="dilate" in="SourceAlpha" result="effect7_innerShadow_26_179"/>
+<feOffset dy="39"/>
+<feGaussianBlur stdDeviation="28"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.5 0"/>
+<feBlend mode="normal" in2="effect6_innerShadow_26_179" result="effect7_innerShadow_26_179"/>
+</filter>
+</defs>
+</svg>

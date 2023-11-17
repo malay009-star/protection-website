@@ -1,0 +1,44 @@
+.form-Secion {
+  background-image: url('./../../assets/img/formBg.png');
+}
+  form {
+    border-radius: 22px;
+    background: linear-gradient(105deg, rgba(46, 230, 168, 0.10) 0%, rgba(45, 104, 255, 0.10) 100%);
+  }
+
+  form label {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+
+  form input {
+    padding: 8px 8px;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    background: rgba(255, 255, 255, 0.10);
+  }
+@include mobile{
+  form input {
+    padding: 7px 8px;
+  }
+}
+  form input::placeholder {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  form a {
+    width: 300px;
+    padding: 12px 0px;
+  }
+@include mobile {
+  form a {
+    width: 100%;
+    padding: 7px 0px;
+  }
+}
+  .cpf_Section {
+    background-image: url('./../img/formBg.png');
+  }

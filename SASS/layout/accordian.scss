@@ -1,0 +1,53 @@
+.accordion_Sec {
+  background-image: url('./../../assets/img/accordian-bg.png');
+
+  #myAccordion button {
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border-radius: 12px !important;
+    border: none !important;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.00) 100%) !important;
+  }
+
+  #myAccordion .item {
+    border-radius: 12px !important;
+    border: none !important;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.00) 100%) !important;
+  }
+}
+#collapseOne p{
+  color: #B6B6B6;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px; /* 222.222% */
+  text-transform: capitalize;
+}
+
+
+// 
+footer {
+  background: linear-gradient(90deg, rgba(46, 230, 168, 0.10) 0%, rgba(7, 91, 255, 0.10) 100%);
+  backdrop-filter: blur(6px);
+
+  a {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+}
+
+/* Custom style */
+.accordion-button::after {
+  background-image: url("./../../assets/img/plus.svg");
+  fill: white !important;
+  background-size: 16px;
+  transform: scale(.7) !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("./../../assets/img/minus.svg");
+  fill: white !important;
+}
+
+;
